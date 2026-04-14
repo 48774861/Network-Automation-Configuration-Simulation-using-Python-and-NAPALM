@@ -1,2 +1,2 @@
-# Network-Automation-Configuration-Simulation-using-Python-and-NAPALM
-A Python simulation of network automation tasks like configuration management, device provisioning, and report generation based on the NAPALM network automation framework.
+# Network Automation Configuration Simulation using Python and NAPALM
+A Python simulation of network automation tasks like configuration management, device provisioning, and report generation based on the NAPALM network automation framework. The Jupyter Notebook reads in your defined network configurations based on a JSON file, builds the network based on what it reads, and can be checked with pings to see if the network has been properly configured. A built-in report generator is included, which outputs which connections have been properly configured.
