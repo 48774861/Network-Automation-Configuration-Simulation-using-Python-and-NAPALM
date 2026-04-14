@@ -1,0 +1,36 @@
+{
+    "R1": {
+        "facts": {
+            "hostname": "R1",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 5
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "10.0.0.1/30"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": "192.168.1.1/24"
+            }
+        }
+    },
+    "R2": {
+        "facts": {
+            "hostname": "R2",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 5
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "10.0.0.2/30"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": "192.168.2.1/24"
+            }
+        }
+    }
+}

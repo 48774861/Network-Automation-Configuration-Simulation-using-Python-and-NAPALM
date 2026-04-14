@@ -1,0 +1,87 @@
+{
+  "R1": {
+    "hostname": "R1-Core",
+    "interfaces": {
+      "eth0": "10.0.0.1/30",
+      "eth1": "10.0.0.14/30",
+      "eth2": "192.168.1.1/24",
+      "eth3": "192.168.2.1/24"
+    }
+  },
+  "R2": {
+    "hostname": "R2-Core",
+    "interfaces": {
+      "eth0": "10.0.0.2/30",
+      "eth1": "10.0.0.5/30",
+      "eth2": "192.168.3.1/24",
+      "eth3": "192.168.4.1/24"
+    }
+  },
+  "R3": {
+    "hostname": "R3-Core",
+    "interfaces": {
+      "eth0": "10.0.0.6/30",
+      "eth1": "10.0.0.9/30",
+      "eth2": "192.168.5.1/24",
+      "eth3": "192.168.6.1/24"
+    }
+  },
+  "R4": {
+    "hostname": "R4-Core",
+    "interfaces": {
+      "eth0": "10.0.0.10/30",
+      "eth1": "10.0.0.13/30",
+      "eth2": "192.168.7.1/24",
+      "eth3": "192.168.8.1/24"
+    }
+  },
+
+  "R5": {
+    "hostname": "R5-Edge",
+    "interfaces": {
+      "eth0": "192.168.1.2/24"
+    }
+  },
+  "R6": {
+    "hostname": "R6-Edge",
+    "interfaces": {
+      "eth0": "192.168.2.2/24"
+    }
+  },
+  "R7": {
+    "hostname": "R7-Edge",
+    "interfaces": {
+      "eth0": "192.168.3.2/24"
+    }
+  },
+  "R8": {
+    "hostname": "R8-Edge",
+    "interfaces": {
+      "eth0": "192.168.4.2/24"
+    }
+  },
+  "R9": {
+    "hostname": "R9-Edge",
+    "interfaces": {
+      "eth0": "192.168.5.2/24"
+    }
+  },
+  "R10": {
+    "hostname": "R10-Edge",
+    "interfaces": {
+      "eth0": "192.168.6.2/24"
+    }
+  },
+  "R11": {
+    "hostname": "R11-Edge",
+    "interfaces": {
+      "eth0": "192.168.7.2/24"
+    }
+  },
+  "R12": {
+    "hostname": "R12-Edge",
+    "interfaces": {
+      "eth0": "192.168.8.2/24"
+    }
+  }
+}

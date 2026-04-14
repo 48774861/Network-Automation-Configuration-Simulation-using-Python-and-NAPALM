@@ -1,0 +1,36 @@
+{
+    "R1": {
+        "facts": {
+            "hostname": "R1",
+            "interfaces_count": 2,
+            "config_lines": 3
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": null
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": null
+            }
+        }
+    },
+    "R2": {
+        "facts": {
+            "hostname": "R2",
+            "interfaces_count": 2,
+            "config_lines": 3
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": null
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": null
+            }
+        }
+    }
+}
