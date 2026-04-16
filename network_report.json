@@ -2,13 +2,113 @@
     "R1": {
         "facts": {
             "hostname": "R1",
-            "interfaces_count": 2,
+            "vendor": "mock_napalm_driver",
+            "config_lines": 9
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "10.0.0.1/30"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": "10.0.0.14/30"
+            },
+            "eth2": {
+                "is_up": true,
+                "ip": "192.168.1.1/24"
+            },
+            "eth3": {
+                "is_up": true,
+                "ip": "192.168.2.1/24"
+            }
+        }
+    },
+    "R2": {
+        "facts": {
+            "hostname": "R2",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 9
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "10.0.0.2/30"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": "10.0.0.5/30"
+            },
+            "eth2": {
+                "is_up": true,
+                "ip": "192.168.3.1/24"
+            },
+            "eth3": {
+                "is_up": true,
+                "ip": "192.168.4.1/24"
+            }
+        }
+    },
+    "R3": {
+        "facts": {
+            "hostname": "R3",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 9
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "10.0.0.6/30"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": "10.0.0.9/30"
+            },
+            "eth2": {
+                "is_up": true,
+                "ip": "192.168.5.1/24"
+            },
+            "eth3": {
+                "is_up": true,
+                "ip": "192.168.6.1/24"
+            }
+        }
+    },
+    "R4": {
+        "facts": {
+            "hostname": "R4",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 9
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "10.0.0.10/30"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": "10.0.0.13/30"
+            },
+            "eth2": {
+                "is_up": true,
+                "ip": "192.168.7.1/24"
+            },
+            "eth3": {
+                "is_up": true,
+                "ip": "192.168.8.1/24"
+            }
+        }
+    },
+    "R5": {
+        "facts": {
+            "hostname": "R5",
+            "vendor": "mock_napalm_driver",
             "config_lines": 3
         },
         "interfaces": {
             "eth0": {
                 "is_up": true,
-                "ip": null
+                "ip": "192.168.1.2/24"
             },
             "eth1": {
                 "is_up": true,
@@ -16,16 +116,118 @@
             }
         }
     },
-    "R2": {
+    "R6": {
         "facts": {
-            "hostname": "R2",
-            "interfaces_count": 2,
+            "hostname": "R6",
+            "vendor": "mock_napalm_driver",
             "config_lines": 3
         },
         "interfaces": {
             "eth0": {
                 "is_up": true,
+                "ip": "192.168.2.2/24"
+            },
+            "eth1": {
+                "is_up": true,
                 "ip": null
+            }
+        }
+    },
+    "R7": {
+        "facts": {
+            "hostname": "R7",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 3
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "192.168.3.2/24"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": null
+            }
+        }
+    },
+    "R8": {
+        "facts": {
+            "hostname": "R8",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 3
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "192.168.4.2/24"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": null
+            }
+        }
+    },
+    "R9": {
+        "facts": {
+            "hostname": "R9",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 3
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "192.168.5.2/24"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": null
+            }
+        }
+    },
+    "R10": {
+        "facts": {
+            "hostname": "R10",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 3
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "192.168.6.2/24"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": null
+            }
+        }
+    },
+    "R11": {
+        "facts": {
+            "hostname": "R11",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 3
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "192.168.7.2/24"
+            },
+            "eth1": {
+                "is_up": true,
+                "ip": null
+            }
+        }
+    },
+    "R12": {
+        "facts": {
+            "hostname": "R12",
+            "vendor": "mock_napalm_driver",
+            "config_lines": 3
+        },
+        "interfaces": {
+            "eth0": {
+                "is_up": true,
+                "ip": "192.168.8.2/24"
             },
             "eth1": {
                 "is_up": true,
